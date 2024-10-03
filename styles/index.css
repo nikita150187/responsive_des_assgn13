@@ -1,0 +1,138 @@
+body {
+ 
+    font-family: 'Poppins', sans-serif;
+}
+ 
+header {
+   
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+header .header {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+ 
+header .nav {
+    width: 300px;
+    display: flex;
+    justify-content: end;
+}
+ 
+header .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+ 
+}
+ 
+header .nav-link {
+    text-decoration: none;
+    color: black;
+}
+ 
+header .nav-link:hover {
+    color: red;
+}
+header .nav-img{
+    display: none;
+}
+ 
+ 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 102px;
+    text-align: center;
+    margin-top: 145px;
+}
+ 
+main h3 {
+    width: 570px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 30px;
+}
+ 
+main img {
+    margin-top: 50px;
+    width: 864px;
+    height: 328px;
+}
+ 
+ 
+@media screen and (max-width: 600px) {
+ 
+ 
+    header .header {
+        font-family: 'Baloo', sans-serif;
+    }
+    header .nav-img{
+        display: block;
+    }
+    header .nav-link {
+        display: none;
+    }
+    main h1 {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+ 
+    main h3 {
+        width: 220px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 30px;
+    }
+    main img {
+        margin-top: 50px;
+        width: 256px;
+        height: 284px;
+    }
+}
+ 
+ 
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    header .header {
+        font-family: 'Baloo', sans-serif;
+    }
+    main h1 {
+        font-size: 72px;
+        font-weight: 500;
+        line-height: 80px;
+    }
+ 
+    main h3 {
+        width: 573px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+    }
+    main img {
+        margin-top: 50px;
+        width: 617px;
+        height: 512px;
+    }
+ 
+ 
+}
